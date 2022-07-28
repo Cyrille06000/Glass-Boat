@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lan="eng">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="description" content="Survey,form"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Glass-Boat Form </title>
+  <link href="style.css" rel="stylesheet"/>
+</head>
+
+
+<body>
+    <h1>The Glass Boat Experience</h1>
+    <p>Come join us on our Glass-Boat Tour</p>
+
+    <div class="container">
+      <form>
+
+          <label id="name-label"><b>Name of the person making the reservation</b></ label>
+            <input id="name" type="text"placeholder="Enter your Name" required class="width"/>
+
+
+         <label id="email-label"><b>Email</b></label>
+          <input id="email" type="email" class="width" required placeholder="Enter your Email"/>
+</br>
+
+    <label><b>Age of the youngest attender</b><sup>(optional)</sup></label>
+    <input id="number" type="number" min="1" max="18"
+       placeholder="Age"required pattern="[0-18]" class="width"/>
+
+    <label><b>Schedule</b></label>
+       <select id="dropdown" required class="width">
+
+          <option disabled selected value>Make your choice among the available options</option>
+        <option value="fruit basket" >Morning(9:00am/12:00pm)</option>
+        <option value="Renting: Mask and Snorkel" > Early Afternoon(1:00pm/3:00pm)</option>
+
+        <option value="Flippers" >Late  Afternoon(3:00pm/6:00pm)</option>
+
+        </select>
+
+        <label><b>How did you hear about Christophe our Captain?</b></label>
+        <label><input type="radio" id="youtube" name="youtube" class="inline-block ">Youtube</label>
+
+        <label><input id="Bouche à oreille" type="radio" name="Captain" value="Bouche à oreille" class="inline-block">Yacht-Clubs</label>
+        <label><input id="whisper" type="radio" name="Captain" value="whisper"class="inline-block">Legendary tales in sailors pubs</label>
+
+        <br/>
+
+<label><b>Additional offers:<sup> </b>(Check all that apply)</sup></label>
+
+  <label><input id="fruit basket" type="checkbox" name="Additional Offers" value="fruit basket"class="inline-block"/>Fruit basket</label>
+
+
+    <label><input id="fruit basket" type="checkbox" name="Additional Offers" value="fruit basket" class="inline-block"/>Renting: Mask and Snorkel</label>
+
+
+  <label><input id="fruit basket" type="checkbox" name="Additional Offers" value="fruit basket" class="inline-block"/>Renting: Flippers</label>
+  <br/><br/><br/>
+  <label><b>If you have any queries, please let us know in the Comment Section below:</b></label>
+  <br/>
+  <textarea rows="10" cols="30" placeholder="Enter your comment here..."></textarea>
+  <br/><br/>
+
+  <button id="submit"><b><big>Submit</big></b></button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br/>
+
+
+
+
+
+
+
+
+      </form>
+
+
+
+
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
